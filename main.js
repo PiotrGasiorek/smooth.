@@ -1,5 +1,3 @@
-window.onload = slideEffect();
-
 function slideEffect(){
     function toggleButtons(toggle){
         for(button of buttons){
@@ -17,3 +15,5 @@ function slideEffect(){
         animationSlider.classList.remove('loadingScreen');
     }, 900);
 };
+
+slideEffect();
